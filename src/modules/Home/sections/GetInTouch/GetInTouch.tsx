@@ -21,7 +21,7 @@ const GetInTouch = () => {
           {content}
         </p>
 
-        <Button href='mailto:raihanhosen011@gmail.com' outlined > Say Hello 👋  </Button>
+        <Button href='mailto:rasyid.rdh05@gmail.com' outlined > Say Hello 👋  </Button>
 
     </section>
   )
