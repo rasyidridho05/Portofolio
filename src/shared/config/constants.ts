@@ -12,7 +12,7 @@ export const projects : ProjectTypes[] = [
         tech : [ "Next js", "Tailwind CSS"],
         code : 'https://github.com/Dannaire/NewsWeb',
         live : 'https://daily-news-actual.vercel.app/',
-        thumnail : "portfolio-v2.png",
+        thumnail : "DNA.png",
         featured : true
     },
 
@@ -21,7 +21,7 @@ export const projects : ProjectTypes[] = [
         description : "GuideGame or GIGA is the design of an online learning website specifically for game development. In addition, this website features asset buying and selling, which will undoubtedly facilitate game developers.",
         tech : [ "Figma","Adobe Illustrator","Adobe Photoshop"],
         live : 'https://www.figma.com/file/3xOTGGOMginFLCLnhkpyEi/GuideGame-(GIGA)?type=design&node-id=0%3A1&mode=design&t=05J35snsvVPHEgi8-1',
-        thumnail : "dg-team.png",
+        thumnail : "GIGA.png",
         featured : true
     },
 
@@ -29,49 +29,33 @@ export const projects : ProjectTypes[] = [
         title : "Kelompok 5 Website",
         description : "Group 5 Website is the profile website of the members of Group 5 from Teaching Factory (TEFA) specializing in Front-end. Here, you can find the Group 5 Profile Video, the personal data, and social media of each member, as well as a calculator feature.",
         tech : [ "React js", "CSS" ],
+        code : 'https://github.com/Dannaire/Tubes-Kelompok5',
         live : 'https://kelompok5-react.vercel.app/',
-        thumnail : "airebix.png",
+        thumnail : "Kelompok 5.png",
     },
 
     {
-        title : "NgantinYuk! Logo",
-        description : "NgantinYuk! Logo is the logo used in the NgantinYuk! series at SMK Telkom Malang. This series is about reviewing the food available at the SMK Telkom Malang cafeteria.",
-        tech : [ "Adobe Illustrator"],
+        title : "Pelihara Iwak",
+        description : "Pelihara Iwak is a mobile-based game with a Loving and Caring theme. The game features four main sections: Fish Care, Sea Management, Shop, and Mini Games. In Fish Care, you can feed and treat your fish.",
+        tech : [ "Figma", "Adobe Photoshop", "Adobe Illustration"],
         live : 'https://amazon-nw.vercel.app/',
-        thumnail : "amazon.png"
+        thumnail : "PeliharaIwak.png"
     },
 
+    {
+        title : "{Try/Catch}",
+        description : "Try/Catch is a programming learning application. In this app, users can learn programming from basics to advanced levels. There are several premium features in the app, such as AI Assist, Coding Playground, and Certificates. ",
+        tech : [ "Figma", "Adobe, Photoshop", "Adobe Illustration"],
+        live : 'https://www.figma.com/proto/hKYJJADrhwHJUjadHciNU2/SI-FEST2023?page-id=0%3A1&type=design&node-id=153-215&viewport=67%2C339%2C0.09&t=EfMSzLCP5T2WvcSB-1&scaling=scale-down&starting-point-node-id=153%3A215&mode=design',
+        thumnail : "TryCatch.png"
+    },
     {
         title : "NextGenCity",
         description : "NextGenCity is a static website used to provide information about Smart Cities, ranging from what the Smart City concept is, what technologies are used in Smart Cities, examples of Smart Cities, and a blog about the development of Smart Cities.",
         tech : [ "HTML", "CSS", "JavaScript", "Figma" ],
-        code : "",
+        code : "https://github.com/Mindblow-id/NextGenCity",
         live : 'https://nextgencity.vercel.app/',
-        thumnail : "powermall.png"
+        thumnail : "NextGenCity.png"
     },
 
-    {
-        title : "WiGo Lern!",
-        description : "NextGenCity is a static website used to provide information about Smart Cities, ranging from what the Smart City concept is, what technologies are used in Smart Cities, examples of Smart Cities, and a blog about the development of Smart Cities.",
-        tech : [ "Figma", "Adobe Photoshop"],
-        code : "",
-        live : 'https://nextgencity.vercel.app/',
-        thumnail : "powermall.png"
-    },
-
-    {
-        title : "Carrier Bag",
-        description : "NextGenCity is a static website used to provide information about Smart Cities, ranging from what the Smart City concept is, what technologies are used in Smart Cities, examples of Smart Cities, and a blog about the development of Smart Cities.",
-        tech : [ "Next js", "Tailwind CSS" ],
-        code : "https://github.com/rasyidridho05/CarrierBag",
-        live : 'https://carrier-bag.vercel.app/',
-        thumnail : "powermall.png"
-    },
-
-    {
-        title : "Banner Design",
-        description : "NextGenCity is a static website used to provide information about Smart Cities, ranging from what the Smart City concept is, what technologies are used in Smart Cities, examples of Smart Cities, and a blog about the development of Smart Cities.",
-        tech : ["Figma","Adobe Illustrator","Adobe Photoshop" ],
-        thumnail : "powermall.png"
-    },
 ]
