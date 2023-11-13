@@ -13,7 +13,7 @@ const Right = () => {
     >
       <div className="w-[300px] h-[350px] relative group rounded-xl after:transition-all after:duration-200 after:hover:left-[12px] after:hover:top-[12px] after:w-full after:z-30 after:h-full after:border-[2px] after:absolute after:top-[20px] after:left-[20px] after:rounded-xl after:border-sky-500">
         <Image
-          src="/images/mines.jpg"
+          src="/images/mine.jpg"
           blurDataURL="/images/mine-2.jpg"
           className="rounded-xl z-40 transition-all duration-200 group-hover:translate-y-[2px] group-hover:translate-x-[2px]"
           layout="fill"
