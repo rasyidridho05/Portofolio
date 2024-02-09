@@ -1,9 +1,15 @@
-"use client"
+"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
 
-const AnimatedTextWord = ({ text, className } : { text : string, className ?: string }) => {
+const AnimatedTextWord = ({
+  text,
+  className,
+}: {
+  text: string;
+  className?: string;
+}) => {
   const words = text.split(" ");
 
   const container = {
