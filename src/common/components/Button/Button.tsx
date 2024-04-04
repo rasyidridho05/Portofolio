@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { FC } from "react";
 import Link from "next/link";
@@ -6,7 +6,6 @@ import Link from "next/link";
 import twFocusClass from "@utils/twFocusClass";
 import { cx } from "@config/constants";
 import { ButtonProps } from "@config/types";
-
 
 const Button: FC<ButtonProps> = ({
   className = "",
@@ -24,21 +23,19 @@ const Button: FC<ButtonProps> = ({
   onClick = () => {},
 }) => {
   const CLASSES = cx(
-     "relative text-white h-auto inline-flex items-center text-[14px] text-slate-800 md:text-[16px] justify-center rounded-full transition-all font-medium bg-sky-400 hover:bg-sky-300 duration-300 ",
-     disabled && '!bg-disable hover:!bg-disable cursor-not-allowed',
-     loading && 'cursor-not-allowed !bg-disable hover:!bg-disable',
-     fontSize,
-     sizeClass,
-     translate,
-     className,
-     twFocusClass(true)
-  )
+    "relative text-white h-auto inline-flex items-center text-[14px] text-slate-800 md:text-[16px] justify-center rounded-full transition-all font-medium bg-sky-400 hover:bg-sky-300 duration-300 ",
+    disabled && "!bg-disable hover:!bg-disable cursor-not-allowed",
+    loading && "cursor-not-allowed !bg-disable hover:!bg-disable",
+    fontSize,
+    sizeClass,
+    translate,
+    className,
+    twFocusClass(true)
+  );
 
-  const OUTLINED_CLASS = 
-    `!bg-transparent border border-[1.2px] !text-sky-400 border-sky-400 hover:!bg-sky-400/10`
+  const OUTLINED_CLASS = `!bg-transparent border border-[1.2px] !text-gray-400 border-gray-400 hover:!bg-gray-400/10`;
 
-  const SECONDAY_CLASS = 
-    `!bg-slate-800 hover:!bg-slate-700 active:!text-slate-400 !text-slate-200`
+  const SECONDAY_CLASS = `!bg-gray-800 hover:!bg-gray-700 active:!text-gray-400 !text-gray-200`;
 
   const _renderLoading = () => {
     return (
@@ -65,7 +62,6 @@ const Button: FC<ButtonProps> = ({
     );
   };
 
-
   if (!!href) {
     return (
       <Link
@@ -83,7 +79,6 @@ const Button: FC<ButtonProps> = ({
       </Link>
     );
   }
-  
 
   return (
     <button

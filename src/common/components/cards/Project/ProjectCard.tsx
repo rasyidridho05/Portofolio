@@ -42,7 +42,7 @@ const ProjectCard = ({
         },
       }}
       {...motionStep}
-      className="col-span-12 sm:col-span-6 md:col-span-4 bg-slate-800 rounded-xl p-4 group "
+      className="col-span-12 sm:col-span-6 md:col-span-4 bg-[#3C3C3C] rounded-xl p-4 group "
     >
       <div>
         <Link href={`${live}`}>
@@ -57,21 +57,21 @@ const ProjectCard = ({
               alt="loading..."
             />
 
-            <div className="absolute top-0 bottom-0 left-0 right-0 bg-sky-900/50 transition-all duration-300 cursor-pointer group-hover:opacity-0" />
+            <div className="absolute top-0 bottom-0 left-0 right-0 bg-gray-900/50 transition-all duration-300 cursor-pointer group-hover:opacity-0" />
           </div>
         </Link>
       </div>
 
       <div>
         <div className="flex items-center justify-between my-5">
-          <RiFilePaperLine className="text-2xl text-sky-400" />
+          <RiFilePaperLine className="text-2xl text-gray-400" />
 
-          <div className={"flex justify-end items-center gap-3 text-slate-300"}>
+          <div className={"flex justify-end items-center gap-3 text-gray-300"}>
             {live && (
               <Link
                 href={`${live}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-110 text-2xl"
+                className="hover:text-gray-400 transition-all duration-300 hover:scale-110 text-2xl"
               >
                 <HiOutlineExternalLink />
               </Link>
@@ -81,7 +81,7 @@ const ProjectCard = ({
               <Link
                 href={`${code}`}
                 target="_blank"
-                className="hover:text-sky-400 transition-all duration-300 hover:scale-90 text-[1.2rem]"
+                className="hover:text-gray-400 transition-all duration-300 hover:scale-90 text-[1.2rem]"
               >
                 <FiGithub />
               </Link>
@@ -89,10 +89,10 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <h1 className="text-xl font-medium mb-1 text-slate-200"> {title} </h1>
-        <p className="text-slate-400"> {description} </p>
+        <h1 className="text-xl font-medium mb-1 text-gray-200"> {title} </h1>
+        <p className="text-gray-400"> {description} </p>
 
-        <div className="flex text-slate-300 mt-7 gap-x-4 flex-wrap">
+        <div className="flex text-gray-300 mt-7 gap-x-4 flex-wrap">
           {tech.map((e: string, i: number) => (
             <span key={i}>{e}</span>
           ))}
@@ -103,4 +103,3 @@ const ProjectCard = ({
 };
 
 export default ProjectCard;
-  
