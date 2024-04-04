@@ -4,6 +4,8 @@ import Glassify from "@components/Glassify";
 import Socials from "@widgets/Socials";
 import Header from "@widgets/Header";
 import Meta from "@components/meta/Meta";
+import { Analytics } from "@vercel/analytics/react";
+import "@vercel/analytics"
 import "../shared/styles/globals.css";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
@@ -25,6 +27,7 @@ export default function RootLayout({
         <Glassify />
 
         <Header />
+        <Analytics />
         {children}
       </body>
     </html>
