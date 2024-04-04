@@ -1,7 +1,7 @@
 const Meta = () => {
   return (
     <>
-      <link rel="icon" type="image/x-icon" href="/Logo.svg"></link>
+      <link rel="icon" type="image/x-icon" href="/logo.svg"></link>
       <link rel="canonical" href="https://www.rasyidridho.my.id/"></link>
       <link rel="pingback" href="https://www.rasyidridho.my.id/"></link>
 
