@@ -37,13 +37,13 @@ export const projects: ProjectTypes[] = [
     thumnail: "Kelompok 5.webp",
   },
   {
-    title: "NextGenCity",
+    title: "Miraii.Edu",
     description:
-      "NextGenCity is a static website used to provide information about Smart Cities, ranging from what the Smart City concept is, what technologies are used in Smart Cities, examples of Smart Cities, and a blog about the development of Smart Cities.",
-    tech: ["HTML", "CSS", "JavaScript", "Figma"],
-    code: "https://github.com/Mindblow-id/NextGenCity",
-    live: "https://nextgencity.vercel.app/",
-    thumnail: "NextGenCity.webp",
+      "Featuring six engaging and enjoyable educational desktop games. Developed by Miraii Studio, this platform addresses specific issues in SMP Lab Undiksha Singaraja, Bali. Miraii.Edu is not available in a mobile, as it is exclusively designed for desktop users.",
+    tech: ["TypeScript", "TailwindCSS", "Next js", "Figma"],
+    code: "https://github.com/rasyidridho05/Miraii.Edu",
+    live: "https://miraii-edu.vercel.app/",
+    thumnail: "MiraiiEdu.png",
   },
   {
     title: "Miraii Studio",
