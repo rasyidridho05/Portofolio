@@ -51,7 +51,7 @@ const Left = () => {
         animate="visible"
         className="w-fit mx-auto lg:ml-0"
       >
-        <a href="https://drive.google.com/uc?id=1Mg77Da4h-ms8OoyFw5cMz_OWxRz43C8U&export=download">
+        <a href="https://drive.google.com/uc?id=1N0W6ahoiQ3P20R3rb0PEyStRKQy6nQiO&export=download">
           <Button outlined> Check out my CV </Button>
         </a>
       </motion.div>
