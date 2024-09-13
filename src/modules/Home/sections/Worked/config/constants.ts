@@ -3,6 +3,17 @@ import { WorkedTypes } from "./types";
 export const worked_data: WorkedTypes[] = [
   {
     id: 0,
+    label: "Telkom University",
+    description: [
+      "Telkom University Purwokerto Campus, I took Bachelor of Software Engineering from Faculty of Informatics.",
+    ],
+    deadline: "Sep 24",
+    title: "Bachelor of Software Engineering",
+    company: "Telkom University",
+    url: "#",
+  },
+  {
+    id: 1,
     label: "Telkom Malang Vocational High School",
     description: [
       "Take the Teaching Factory (TEFA) program at Telkom Indonesia for one year with a specialization in Front-End.",
@@ -15,7 +26,7 @@ export const worked_data: WorkedTypes[] = [
     url: "#",
   },
   {
-    id: 1,
+    id: 2,
     label: "Freelance",
     description: [
       "Creating X-Banner and Brochure designs for exhibitions.",
