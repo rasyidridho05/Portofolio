@@ -7,7 +7,7 @@ import { fadeTop, motionStep } from "@config/motion";
 
 const Left = () => {
   const content = [
-    "Hello! I'm Rasyid, a Graphic Designer and Front-end web developer who enjoys learning new things. Currently, I am pursuing my education at SMK Telkom Malang, majoring in Software Engineering with expertise in Node-React. My interest and talent in the fields of Design and Front-End Development began when I attended this vocational school, and they will continue to grow over time.",
+    "Hello! I'm Rasyid, a Graphic Designer and Front-end web developer who enjoys learning new things. Currently, I am pursuing my education at Telkom University, Bachelor of Software Engineering study program. My interest and talent in the fields of Design and Front-End Development began when I attended Telkom Malang Vocational High School, and they will continue to grow over time.",
     "Let's collaborate and turn your ideas into remarkable digital experiences!",
     "Here are some technologies and skills that I always use:",
   ];
