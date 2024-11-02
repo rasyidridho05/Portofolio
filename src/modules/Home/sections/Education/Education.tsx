@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Content from "./partials/Content";
+import Content from "./partials/Content"; //c uppercase; 
 import { fadeLeft, motionStep } from "@config/motion";
 
 const Education = () => {
