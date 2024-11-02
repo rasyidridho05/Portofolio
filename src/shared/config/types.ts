@@ -1,6 +1,5 @@
 import { ButtonHTMLAttributes, ReactNode } from "react";
 
-// button props
 export type ButtonProps = {
     className?: string;
     translate?: string;
@@ -18,7 +17,6 @@ export type ButtonProps = {
     children?: ReactNode;
 };
 
-// project data types
 export type ProjectTypes = {
     title : string,
     description ?: string,

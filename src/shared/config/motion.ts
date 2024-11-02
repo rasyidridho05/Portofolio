@@ -120,7 +120,7 @@ export const fadeTop = {
 
 
 // worked li
-export const worked_1 = {
+export const experience_1 = {
   visible: {
     opacity: 1,
     y: 0,
@@ -143,7 +143,7 @@ export const worked_1 = {
 };
 
 
-export const worked_2 = {
+export const experience_2 = {
   visible: {
     opacity: 1,
     y: 0,
@@ -166,7 +166,7 @@ export const worked_2 = {
 };
 
 
-export const worked_3 = {
+export const experience_3 = {
   visible: {
     opacity: 1,
     y: 0,

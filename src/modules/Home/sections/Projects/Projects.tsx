@@ -14,7 +14,7 @@ const Projects = () => {
         {...motionStep}
         className="flex items-center gap-2 text-lg md:text-3xl font-medium text-gray-300 mb-12"
       >
-        <span className="text-gray-500 font-mono">03. </span>
+        <span className="text-gray-500 font-mono">04. </span>
         Some Things I’ve Built
       </motion.h1>
 

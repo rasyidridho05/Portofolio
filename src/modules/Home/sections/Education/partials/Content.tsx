@@ -4,8 +4,8 @@ import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { IoMdArrowDropright } from "react-icons/io";
-import { worked_data } from "../config/constants";
-import { WorkedTypes } from "../config/types";
+import { Education_data } from "../config/constants";
+import { EducationTypes } from "../config/types";
 import { cx } from "@config/constants";
 import Pager from "./Pager";
 import {
@@ -46,7 +46,7 @@ const Content = () => {
         className="relative min-w-[200px]"
       >
         <div>
-          {worked_data.map((e: WorkedTypes, i: number) => (
+          {Education_data.map((e: EducationTypes, i: number) => (
             <div
               key={i}
               onClick={() => setActiveIndex(i)}
@@ -68,9 +68,9 @@ const Content = () => {
       </motion.div>
 
       <Pager value={activeIndex}>
-        {worked_data.map(
+        {Education_data.map(
           (
-            { title, url, company, deadline, description }: WorkedTypes,
+            { title, url, academy, deadline, description }: EducationTypes,
             i: number
           ) => (
             <div key={i}>
@@ -83,7 +83,7 @@ const Content = () => {
                     className="text-gray-300 border-b border-b-gray-300 border-dotted"
                   >
                     {" "}
-                    @{company}{" "}
+                    @{academy}{" "}
                   </Link>
                 </h1>
                 <p className="text-gray-400 font-medium mt-1"> {deadline} </p>
