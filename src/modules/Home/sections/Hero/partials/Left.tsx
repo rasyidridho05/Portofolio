@@ -39,7 +39,7 @@ const Left = () => {
 
         <div className="my-5 md:my-8 leading-7 text-gray-400 md:text-lg max-w-3xl">
           <AnimatedTextWord
-            text="Highly motivated and passionate Graphic Design and Front End Development with one years expereince in Adobe Illustrator, Adobe Photoshop, Figma, React js, Next js, Tailwind CSS, Node js, MySQL"
+            text="Highly motivated and passionate UI/UX Design and Front End Development with one years expereince in Adobe Illustrator, Adobe Photoshop, Figma, React js, Next js, Tailwind CSS, Node js, MySQL"
             className="text-sm sm:text-lg justify-center lg:justify-start"
           />
         </div>
