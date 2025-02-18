@@ -33,7 +33,7 @@ const Left = () => {
           />
           <AnimatedTextCharacter
             className="font-medium text-sm sm:text-[1.6rem] tracking-normal md:text-[2rem] text-gray-400 mt-1 justify-center lg:justify-start"
-            text="Graphic Designer and Front End Developer"
+            text="UI/UX Designer and Front End Developer"
           />
         </div>
 

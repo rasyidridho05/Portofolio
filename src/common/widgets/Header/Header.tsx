@@ -41,7 +41,7 @@ const Header = () => {
       <div className="flex items-center justify-center md:justify-between">
         <Link href="/" className="flex">
           <AnimatedTextCharacter
-            text="R"
+            text="R"  
             className="text-4xl font-semibold text-gray-400"
           />
           <AnimatedTextCharacter
