@@ -14,7 +14,6 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/Dannaire/NewsWeb",
     live: "https://daily-news-actual.vercel.app/",
     thumnail: "DNA.webp",
-    featured: true,
   },
 
   {
@@ -24,7 +23,6 @@ export const projects: ProjectTypes[] = [
     tech: ["Figma", "Adobe Illustrator", "Adobe Photoshop"],
     live: "https://www.figma.com/file/3xOTGGOMginFLCLnhkpyEi/GuideGame-(GIGA)?type=design&node-id=0%3A1&mode=design&t=05J35snsvVPHEgi8-1",
     thumnail: "GIGA.webp",
-    featured: true,
   },
 
   {
@@ -37,15 +35,6 @@ export const projects: ProjectTypes[] = [
     thumnail: "Kelompok 5.webp",
   },
   {
-    title: "Miraii.Edu",
-    description:
-      "Featuring six engaging and enjoyable educational desktop games. Developed by Miraii Studio, this platform addresses specific issues in SMP Lab Undiksha Singaraja, Bali. Miraii.Edu is not available in a mobile, as it is exclusively designed for desktop users.",
-    tech: ["TypeScript", "TailwindCSS", "Next js", "Figma"],
-    code: "https://github.com/rasyidridho05/Miraii.Edu",
-    live: "https://miraii-edu.vercel.app/",
-    thumnail: "MiraiiEdu.png",
-  },
-  {
     title: "Miraii Studio",
     description:
       "Miraii Studio is a website company that was created using only Frontend. On this website, I used the Next.js framework with TypeScript and Tailwind CSS. Before carrying out the development stage, I first designed this website using Figma.",
@@ -53,6 +42,17 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/rasyidridho05/Miraii-Studio",
     live: "https://miraii-studio.vercel.app/",
     thumnail: "MiraiiStudio.webp",
+    featured: true,
+  },
+  {
+    title: "Miraii.Edu",
+    description:
+      "Featuring six engaging and enjoyable educational desktop games. Developed by Miraii Studio, this platform addresses specific issues in SMP Lab Undiksha Singaraja, Bali. Miraii.Edu is not available in a mobile, as it is exclusively designed for desktop users.",
+    tech: ["TypeScript", "TailwindCSS", "Next js", "Figma"],
+    code: "https://github.com/rasyidridho05/Miraii.Edu",
+    live: "https://miraii-edu.vercel.app/",
+    thumnail: "MiraiiEdu.png",
+    featured: true,
   },
   {
     title: "{Try/Catch}",

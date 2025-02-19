@@ -6,6 +6,8 @@ export const Education_data: EducationTypes[] = [
     label: "Telkom University",
     description: [
       "Telkom University Purwokerto Campus, I took Bachelor of Software Engineering from Faculty of Informatics.",
+      "Part of Himpunan Mahasiswa Software Engineering (HMSE) Period 2025",
+      "Participate in Graduation Liaison Officer 2024.",
     ],
     deadline: "Sep 24 - Present",
     title: "Bachelor of Software Engineering",
@@ -16,9 +18,8 @@ export const Education_data: EducationTypes[] = [
     id: 1,
     label: "Telkom Malang Vocational High School",
     description: [
-      "Take the Teaching Factory (TEFA) program at Telkom Indonesia for one year with a specialization in Front-End.",
-      "Create a Laundry and Hotel Reservation Website for Final Exam.",
       "Participating in various competitions, including Business Plan, UI/UX Design, Poster Design, and Game Development Competition.",
+      "Take the Teaching Factory (TEFA) program at Telkom Indonesia for one year with a specialization in Front-End.",
       "Participate in School Organization, Liaision Officer and Committee.",
     ],
     deadline: "Jul 21 - Jun 24",
