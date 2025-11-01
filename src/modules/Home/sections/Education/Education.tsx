@@ -5,7 +5,7 @@ import { fadeLeft, motionStep } from "@config/motion";
 
 const Education = () => {
   return (
-    <section id="experience" className="container">
+    <section id="education" className="container">
       <motion.h1
         variants={fadeLeft}
         {...motionStep}
