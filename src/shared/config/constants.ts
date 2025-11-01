@@ -40,8 +40,8 @@ export const projects: ProjectTypes[] = [
       "Miraii Studio is a website company that was created using only Frontend. On this website, I used the Next.js framework with TypeScript and Tailwind CSS. Before carrying out the development stage, I first designed this website using Figma.",
     tech: ["TypeScript", "Tailwind CSS", "Next js", "Figma"],
     code: "https://github.com/rasyidridho05/Miraii-Studio",
-    live: "https://miraii-studio.vercel.app/",
-    thumnail: "MiraiiStudio.webp",
+    live: "https://www.miraiistudio.com/",
+    thumnail: "Studio.webp",
     featured: true,
   },
   {
@@ -50,8 +50,8 @@ export const projects: ProjectTypes[] = [
       "Featuring six engaging and enjoyable educational desktop games. Developed by Miraii Studio, this platform addresses specific issues in SMP Lab Undiksha Singaraja, Bali. Miraii.Edu is not available in a mobile, as it is exclusively designed for desktop users.",
     tech: ["TypeScript", "TailwindCSS", "Next js", "Figma"],
     code: "https://github.com/rasyidridho05/Miraii.Edu",
-    live: "https://miraii-edu.vercel.app/",
-    thumnail: "MiraiiEdu.png",
+    live: "https://edu.miraiistudio.com/",
+    thumnail: "MiraiiEdu.webp",
     featured: true,
   },
   {
