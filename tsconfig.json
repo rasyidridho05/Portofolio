@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "lib": [
       "dom",
       "dom.iterable",
@@ -13,39 +13,38 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": "./",
     "paths": {
       "@public/*": [
-        "public/*"
+        "./public/*"
       ],
       "@components/*": [
-        "src/common/components/*"
+        "./src/common/components/*"
       ],
       "@widgets/*": [
-        "src/common/widgets/*"
+        "./src/common/widgets/*"
       ],
       "@modules/*": [
-        "src/modules/*"
+        "./src/modules/*"
       ],
       "@types/*": [
-        "src/shared/@types/*"
+        "./src/shared/@types/*"
       ],
       "@utils/*": [
-        "src/shared/utils/*"
+        "./src/shared/utils/*"
       ],
       "@redux/*": [
-        "src/shared/redux/*"
+        "./src/shared/redux/*"
       ],
       "@hooks/*": [
-        "src/shared/hooks/*"
+        "./src/shared/hooks/*"
       ],
       "@config/*": [
-        "src/shared/config/*"
+        "./src/shared/config/*"
       ]
     },  
     "plugins": [
